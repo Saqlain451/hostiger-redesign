@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/hostinger-redesign/static/css/main.7e0213b1.css",
+    "main.js": "/hostinger-redesign/static/js/main.1ad9468a.js",
+    "static/media/person1.webp": "/hostinger-redesign/static/media/person1.80a56948cd56e63f7ee1.webp",
+    "static/media/other2.webp": "/hostinger-redesign/static/media/other2.f808562002a2319ac039.webp",
+    "static/media/domain.webp": "/hostinger-redesign/static/media/domain.10895a9a815776931e6d.webp",
+    "static/media/other3.webp": "/hostinger-redesign/static/media/other3.301094683ccdebf7175f.webp",
+    "static/media/person3.webp": "/hostinger-redesign/static/media/person3.60140db4cbafafd12671.webp",
+    "static/media/person2.webp": "/hostinger-redesign/static/media/person2.1ae662853fd98900144d.webp",
+    "static/media/slider1.webp": "/hostinger-redesign/static/media/slider1.2a1e54db40da751fbf5d.webp",
+    "static/media/vpshero.webp": "/hostinger-redesign/static/media/vpshero.f32e276c0c69a5126a34.webp",
+    "static/media/person4.webp": "/hostinger-redesign/static/media/person4.05c65e9341283e507e43.webp",
+    "static/media/sliders2.webp": "/hostinger-redesign/static/media/sliders2.897d681dde3fc10cb93e.webp",
+    "static/media/other1.webp": "/hostinger-redesign/static/media/other1.2f1caf37fe865f1acc59.webp",
+    "static/media/slider4.webp": "/hostinger-redesign/static/media/slider4.168111708cdbd6c856b1.webp",
+    "static/media/logo.webp": "/hostinger-redesign/static/media/logo.028a5d7135cdb65ce05c.webp",
+    "static/media/slider3.webp": "/hostinger-redesign/static/media/slider3.bdff13095eb37a435425.webp",
+    "static/media/pament.webp": "/hostinger-redesign/static/media/pament.91837a5459528af15905.webp",
+    "static/media/data.webp": "/hostinger-redesign/static/media/data.ca99a280226e78d92aa0.webp",
+    "static/media/datapro.webp": "/hostinger-redesign/static/media/datapro.39bd5350ff0b633cba96.webp",
+    "static/media/fire.webp": "/hostinger-redesign/static/media/fire.9b2d771d7bb12e204c2e.webp",
+    "static/media/lock.webp": "/hostinger-redesign/static/media/lock.cafacae8a8d7e6313be9.webp",
+    "static/media/performance.svg": "/hostinger-redesign/static/media/performance.69ab7de28f2973c731723df1827e52b3.svg",
+    "static/media/control.svg": "/hostinger-redesign/static/media/control.c6c69cd1b7d7e551d418e3f449f9d1e4.svg",
+    "static/media/security.svg": "/hostinger-redesign/static/media/security.a3e342ef81e0caa4845d8fd7497c4eed.svg",
+    "index.html": "/hostinger-redesign/index.html",
+    "static/media/data center.svg": "/hostinger-redesign/static/media/data center.778f4f12825b810ac19f9180ae0a6ed3.svg",
+    "main.7e0213b1.css.map": "/hostinger-redesign/static/css/main.7e0213b1.css.map",
+    "main.1ad9468a.js.map": "/hostinger-redesign/static/js/main.1ad9468a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e0213b1.css",
+    "static/js/main.1ad9468a.js"
+  ]
+}
