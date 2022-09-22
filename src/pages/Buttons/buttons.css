@@ -1,0 +1,100 @@
+.input-buttons{
+    display: flex;
+    gap: 2rem;
+    padding: 10rem 0rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .btn-dark{
+    background-color: var(--bg-dark);
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border: none;
+    padding: 1.7rem 2rem;
+} 
+
+.btn-dark:hover{
+    background-color: var(--bg-primary);
+}
+
+.btn-primary{
+    background-color: var(--bg-primary);
+    border-radius: 0px 15px 0px 15px;
+}
+
+.btn-pages{
+    padding: 2rem 1rem 2rem 1rem;
+    background-color: var(--white);
+} 
+
+ @media screen and (max-width : 820px) {
+    .input-buttons{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;     
+    }
+
+    .btn-dark{
+        font-size: 1.3rem;
+        padding: 1.3rem 2rem;
+    } 
+}
+
+@media screen and (max-width : 667px) {
+     .input-buttons{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center; 
+    }
+    .btn-dark{
+        font-size: 0.8rem;
+        padding: 1.2rem 1rem;
+    } 
+    .btn-primary{
+        background-color: var(--bg-primary);
+        border-radius: 0px 10px 0px 10px;
+    }
+}
+
+@media screen and (max-width : 420px) {
+    .input-buttons{
+       display: flex;
+       gap: 1rem;
+       align-items: center;
+       justify-content: center; 
+   }
+   .btn-dark{
+       font-size: 0.6rem;
+       padding: 1.2rem 1rem;
+   } 
+   .btn-primary{
+       background-color: var(--bg-primary);
+       border-radius: 0px 10px 0px 10px;
+   }
+}
+
+@media screen and (max-width : 325px){
+    .input-buttons{
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center; 
+    }
+    .btn-dark{
+        font-size: 0.5rem;
+        padding: 1rem 1rem;
+    } 
+    .btn-primary{
+        background-color: var(--bg-primary);
+        border-radius: 0px 7px 0px 7px;
+    }
+}
+ 
+
+
+

@@ -1,0 +1,27 @@
+.countup .btn-start{
+    display: none;
+}
+
+.countup .card-contact h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.countup .card-contact span{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.countup .card-contact:hover p{
+    border-radius: 50%;
+}
+
+@media screen and (max-width:950px) and (min-width:767px)  {
+    .countup .card-contact h1{
+        font-size: 1.45rem;
+    }
+}

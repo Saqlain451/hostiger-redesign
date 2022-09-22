@@ -1,0 +1,34 @@
+thead{
+    background-color: var(--bg-primary);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+thead tr{
+    font-size: 2rem;
+}
+thead tr th{
+    padding: 2.6rem 0rem !important;
+}
+thead tr th:hover{
+    background-color: #53a5ef;
+}
+
+tr{
+    font-size: 1.6rem ;
+    text-align: center;
+}
+
+@media screen and (max-width : 767px) {
+    thead tr{
+        font-size: 1.6rem;
+    }
+    tr{
+        font-size: 1.3rem ;
+        text-align: center;
+    }
+}
+
+

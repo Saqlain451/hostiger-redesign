@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.other-hero{
+    display: flex;
+    align-items: center;
+}
+
+.other-hero .carosel-title{
+    color: var(--bg-primary);
+    animation: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.other-hero .carosel-content{
+    color: var(--bg-dark);
+    animation: none;
+}
+.hero-span{
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem 0.5rem 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list{
+    display: flex;
+    gap: 3rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem 3rem;
+}
+
+.check-icon{
+    color: var(--bg-primary);
+    font-size: 2.5rem;
+}
+.other-hero .btn-start{
+    animation: none;
+    margin-bottom: 2rem;
+}
+.other-hero .btn-start:hover{
+    background-color: var(--bg-primary);
+}
+
+.other-hero .btn-start:hover a{
+    color: white;
+}
+
+.other-hero .carousel-img{
+    animation: none;
+}
+
+@media screen and (max-width : 1024px) {
+    .hero-span{
+        font-size: 2.5rem; 
+    }
+    .list{
+        gap: 1rem;
+        font-size: 1rem;
+    }
+    .check-icon{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .hero-span{
+        text-align: center;
+        padding: 0.5rem 1rem 0rem 3rem;
+    }
+    .list{
+        display: flex;
+        gap: 1rem;
+        font-size: 1rem;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width : 360px){
+    .list{
+        gap: 1rem;
+        font-size: 1rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 280px){
+    .list{
+        
+        font-size: 0.7rem;
+        justify-content: space-between;
+    }
+    .check-icon{
+        font-size: 1.4rem;
+    }
+    
+}
+    
+
+

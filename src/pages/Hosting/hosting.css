@@ -1,0 +1,28 @@
+.hosting{
+    background-color: var(--bg-primary);
+    padding:5rem 0rem 2rem 0rem ;
+}
+
+.hosting-features{
+    padding: 10rem 0rem;
+}
+
+.hosting-pricing{
+    background-color: var(--bg-info);
+    padding: 12rem 0rem;
+}
+
+.hosting-faq{
+    background-color: var(--bg-info);
+    padding: 12rem 0rem;
+}
+
+.hosting-table{
+    padding: 8rem 0rem;
+}
+
+@media screen and (max-width:767px) {
+    .hosting{
+        padding:14rem 0rem 3rem 0rem ;
+    }
+}

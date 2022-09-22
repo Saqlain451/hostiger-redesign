@@ -1,0 +1,110 @@
+.contact-top{
+    background-color: var(--bg-primary);
+    padding: 2rem 4rem;
+}
+.contact-top h1{
+    font-size: 4rem;
+    color: var(--white);
+}
+.contact-top p {
+    font-size: 1.8rem;
+    color: var(--white);
+    text-align: end;
+}
+.contact-top p span{
+    cursor: pointer;
+}
+
+
+
+.contact-mid h1{
+    font-size: 3.5rem;
+    margin-bottom: 6rem;
+}
+
+.contact-mid h1 span {
+    border-bottom: 2px solid var(--bg-primary);
+}
+
+.contact-mid .form{
+    background-color: #737373;
+}
+
+.contact-mid .form-control{
+    height: 4.3rem;
+    margin-top: 1.3rem;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.contact-mid .form-control::placeholder{
+    font-size: 1.7rem;
+    padding-left: 1rem;
+}
+
+.contact-mid textarea{
+    height: 15rem !important;
+}
+
+.contact-mid .btn-send{
+    width: 13rem;
+    height: 5rem;
+    background-color: var(--bg-primary);
+    color: var(--white);
+    font-size: 1.8rem;
+    border: none;
+    margin-top: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.margin{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.bg-secondary{
+    background-color: #f0f0f0 !important;
+}
+
+
+
+.contact-mid2{
+    background-color: var(--bg-dark);
+    padding: 12rem 0rem;
+}
+.contact-test{
+    padding: 10rem 0rem 6rem 0rem;
+}
+
+@media screen  and (max-width : 914px){
+    .contact-top{
+        padding: 10rem 1rem 2.5rem 1rem;
+
+    }
+}
+
+
+@media screen  and (max-width : 767px) {
+    .contact-top{
+        padding: 10rem 1rem 2.5rem 1rem;
+
+    }
+
+    .contact-top h1{
+        font-size: 3rem;
+    }
+    .contact-top p {
+        text-align: start;
+    }
+
+    .contact-mid h1{
+        font-size: 3rem;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+    .contact-mid form{
+        padding: 1rem;
+    }
+    
+}

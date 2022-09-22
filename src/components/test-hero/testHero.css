@@ -1,0 +1,68 @@
+.review {
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s linear;
+  text-align: center;
+}
+
+.img-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.img-container::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10e";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background: var(--bg-primary);
+  color: var(--white);
+}
+.img-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+  position: absolute;
+  top: -0.5rem;
+  right: -1rem;
+  border-radius: 50%;
+}
+.author {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+}
+.job {
+  margin-bottom: 01rem;
+  text-transform: uppercase;
+  color: var(--bg-primary);
+  font-size: 1.3rem;
+}
+.info {
+  font-size: 1.5rem;
+  margin-bottom: 10rem;
+  padding: 0rem 3rem;
+}
+
+

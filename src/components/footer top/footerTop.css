@@ -1,0 +1,34 @@
+.footer-top{
+    background-color: var(--bg-primary) !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap : 0.5rem;
+    color : var(--white);
+    justify-content: center;
+    font-size: 1.7rem;
+    padding: 3rem 0.5rem 2rem 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: capitalize;
+}
+
+.footer-top:hover{
+    background-color: #53A5EF !important;
+}
+.footer-top-icon{
+    font-size: 2rem;
+}
+
+@media screen and (max-width : 1025px) {
+    .footer-top{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .footer-top{
+        font-size: 1.6rem;
+    }
+}
+
