@@ -1,0 +1,58 @@
+.home{
+    background-color: var(--bg-primary);
+    padding:5rem 0rem 2rem 0rem ;
+}
+.home-textbtn{
+    background-color: var(--bg-dark);
+    padding: 5rem 0rem;
+}
+.home-icon{
+    padding: 7rem 0rem;
+}
+.home-price{
+    background-color: var(--bg-info);
+    padding: 8rem 1rem 12rem 1rem;
+}
+.home-textbtn2{
+    padding: 5rem 0rem;
+    background-color: var(--bg-primary);
+}
+.home-textbtn2 .btn-search{
+    background-color: var(--bg-dark);
+    transition: all 0.5s ease ;
+}
+
+.home-textbtn2 .btn-search:hover{
+    background-color: var(--white);
+    color: var(--bg-dark);
+}
+.home-service{
+    background-color: var(--bg-info);
+    padding: 8rem 1rem 12rem 1rem;
+}
+.other-service{
+    padding: 10rem 0rem;
+}
+.seo{
+    background-color: var(--bg-info);
+}
+
+.home-buttons{
+    background-color: var(--bg-info);
+    padding-bottom: 10rem;
+}
+.home-testimonial{
+    padding: 10rem 0rem 6rem 0rem;
+}
+
+.home-countup{
+    background-color: var(--bg-dark);
+    padding: 7rem 0rem;
+}
+
+
+@media screen and (max-width:767px) {
+    .home{
+        padding:14rem 0rem 3rem 0rem ;
+    }
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.card-ques{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-dark);
+    color: var(--white);
+    padding: 0.3rem 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-ans{
+    background-color: var(--white);
+    font-size: 1.7rem;
+    padding: 2rem;
+}
+
+.add-icon{
+    background-color: transparent;
+    color: var(--bg-primary);
+    border: none;
+    font-size: 2.5rem;
+}
+
+ .white {
+   background-color: var(--bg-primary);
+   color: var(--white);
+}
+.white-icon{
+    color: var(--white);
+}

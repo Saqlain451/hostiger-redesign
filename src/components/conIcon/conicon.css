@@ -1,0 +1,119 @@
+.contact-icon{
+    color:  #737373;
+    font-size: 3.5rem;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid #737373;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.con-mid-text{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+
+.card-contact{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.card-contact p {
+    display: flex;
+    font-size: 4rem;
+    text-align: center;
+    align-items: center !important;
+    background-color: var(--white);
+    width: 8rem ;
+    height: 8rem;
+    justify-content: center;
+    color: var(--bg-primary);
+   
+}
+
+.card-contact h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.card-contact span{
+    font-size: 1.9rem;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.card-contact .btn-start{
+    background-color: var(--bg-primary);
+    animation: none;
+    display: block;
+    margin: auto;
+    color: white;
+    margin-top: 2rem;
+    width: 17rem;
+    height: 4.7rem;
+}
+.card-contact .btn-start:hover{
+    background-color: var(--white);
+    color: var(--bg-primary);
+}
+
+
+@media screen  and (max-width : 1025px) {
+    .card-contact h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen  and (max-width : 913px) and (min-width : 768px) {
+    .card-contact h1{
+        font-size: 1.8rem;
+    }
+    .card-contact span{
+        font-size: 1.6rem;
+    }
+
+}
+
+
+
+@media screen  and (max-width : 767px) {
+    .con-mid-text{
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .contact-icon{
+        font-size: 2.5rem;
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+}
+
+@media screen  and (max-width : 280px){
+    .con-mid-text{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .contact-icon{
+        
+        font-size: 2.3rem;
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

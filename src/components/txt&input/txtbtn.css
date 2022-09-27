@@ -1,0 +1,86 @@
+.txt-input-title{
+    font-size: 4.5rem;
+    color: var(--white);
+    padding: 0rem 1rem 0rem 0rem;
+}
+.txt-input-content{
+    font-size: 2.2rem;
+    color: var(--white);
+    margin-top: 1rem;
+}
+
+.btn-search{
+    background-color: var(--bg-primary);
+    border: none;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 1.5rem 5rem;
+    font-weight: 500;
+}
+.row>.col-md-7>.form-control{
+    height: 5.5rem;
+    border-radius: none !important;
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.row>.col-md-7>.form-control::placeholder{
+    font-size: 2rem;
+    padding: 0rem 0rem 0rem 1rem;
+    color: var(--bg-dark);
+}
+
+.form-control.focus, .form-control:focus{
+    box-shadow: none;
+    border-radius: 0;
+}
+
+@media screen and (max-width:912px){
+    .txt-input-title{
+        font-size: 3rem;
+    }
+    .txt-input-content{
+        font-size: 1.8rem;
+    }
+    .btn-search{
+        padding: 1.2rem 3.5rem;
+        font-size: 1.4rem;
+    }
+    .row>.col-md-7>.form-control{
+        height: 4.5rem;
+    }
+    .row>.col-md-7>.form-control::placeholder{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:540px){
+    .txt-input-title{
+        text-align: center;
+    }
+    .txt-input-content{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width:280px){
+    .txt-input-title{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .txt-input-content{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .btn-search{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+    }
+    .row>.col-md-7>.form-control{
+        height: 3.9rem;
+    }
+    .row>.col-md-7>.form-control::placeholder{
+        font-size: 1.2rem;
+    }
+    
+}

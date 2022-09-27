@@ -1,0 +1,80 @@
+.html, .css, .bootstrap,.js, .react{
+    font-size: 6rem;
+    color: #a6a6a6;
+    text-align: center;
+}
+
+.html p{
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #a6a6a6;
+    font-weight: 500;
+}
+.css p {
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #a6a6a6;
+    font-weight: 500;
+}
+.bootstrap p {
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #a6a6a6;
+    font-weight: 500;
+}
+.js p {
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #a6a6a6;
+    font-weight: 500;
+}
+.react p {
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #a6a6a6;
+    font-weight: 500;
+}
+
+.html:hover{
+    color: #e34f26 
+}
+.html:hover p{
+    color: #e34f26 
+}
+
+.css:hover{
+    color: #167dbe;
+}
+
+.css:hover p{
+    color: #167dbe;
+}
+
+.js:hover{
+    color: #F0DB4F;
+}
+.js:hover p{
+    color: #F0DB4F;
+}
+
+.bootstrap:hover{
+    color: #602C50;
+}
+
+.bootstrap:hover p{
+    color: #602C50;
+}
+
+.react:hover{
+    color: #61DBFB;
+}
+
+.react:hover:p{
+    color: #61DBFB;
+}
+

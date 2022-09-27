@@ -1,0 +1,126 @@
+.carosel-title{
+    font-size: 4.5rem;
+    color: var(--white);
+    padding: 0rem 1rem 0.5rem 3rem;
+    animation: 3s anim-lineUp ease-out ;
+}
+
+.carosel-content{
+    font-size: 1.4rem;
+    color: var(--white);
+    padding: 0.5rem 1rem 0.5rem 3rem;
+    animation: 3s anim-lineUp ease-out ;
+}
+
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+
+
+.btn-start{
+    height: 5rem;
+    width: 15.5rem;
+    border: none;
+    display: block;
+    margin-left: 2.8rem;
+    font-size: 1.7rem;
+    background-color: var(--bg-dark);
+    text-transform: uppercase;
+    margin-top: 2.2rem;
+    animation: 3s anim-lineUp ease-out ;
+    margin-bottom: 7rem;
+    color: white;
+}
+
+.carousel-img{
+    animation: 3s anim-lineUp ease-out ;
+    margin-bottom: 7rem;
+}
+
+
+
+.btn-start:hover{
+    background-color: var(--white);
+    color: var(--bg-dark);
+    font-weight: 500;
+    
+}
+.btn-start:hover a{
+    color: var(--bg-dark);
+}
+
+@media screen and (max-width:1025px) {
+    .carousel-img{
+        width: 380px;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .carosel-title{
+        font-size: 3rem;
+    }
+    .carosel-content{
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem 0.5rem 3rem;
+    }
+
+}
+
+@media screen and (max-width:821px){
+    .carousel-img{
+        width: 335px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:768px) { 
+    .carousel-img{
+        width: 300px;
+        height: auto;
+        margin-top: 2rem;
+    }
+    .carosel-title{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .carosel-content{
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 0.5rem 1rem 0.5rem 3rem;
+    }
+    .btn-start{
+        height: 4rem;
+        width: 12.8rem;
+        font-size: 1.2rem;
+        display: block;
+        margin: auto;
+        
+    }
+}
+
+@media screen and (max-width:541px){
+    .carousel-img{
+        width: 250px;
+        height: auto;
+        margin-top: 2rem;
+        margin: auto;
+        display: block;
+    }
+}
+
+

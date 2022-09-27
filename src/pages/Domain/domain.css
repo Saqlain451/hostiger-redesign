@@ -1,0 +1,35 @@
+.domain-hero{
+    background-color: var(--bg-primary);
+    padding:9rem 0rem 5rem 0rem;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.domain-textbtn{
+    background-color: var(--bg-dark);
+    padding: 8rem 0rem;
+}
+
+.domain-features{
+    background-color: var(--white);
+    padding: 12rem 0rem;
+}
+.domain-table{
+    background-color: var(--bg-info);
+    padding: 10rem 0rem;
+}
+
+.domain-table tbody>tr>.first{
+    color: var(--bg-dark);
+    font-weight: 600;
+    font-size: 2rem !important;
+} 
+
+.domain-faq{
+    padding: 12rem 0rem;
+}
+
+
+@media screen and (max-width:767px) {
+    .domain-hero{
+        padding:14rem 0rem 3rem 0rem ;
+    }
+}

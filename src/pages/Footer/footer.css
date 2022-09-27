@@ -1,0 +1,127 @@
+.footer{
+    background-color: var(--bg-dark);
+    padding: 0rem 0rem 5rem 0rem;
+}
+
+.footer-mid .form-control::placeholder{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.footer-mid .btn-primary{
+    font-size: 1.8rem;
+    font-weight: 500;
+    background-color: var(--bg-primary) !important;
+}
+
+.footer-mid span{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--white);
+    padding: 3rem 0rem;
+}
+
+.footer-mid .footer-icons{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    padding: 2rem 0rem;
+}
+
+.footer-mid .footer-icons .icons{
+    color: white;   
+    margin-bottom: 0.6rem;
+}
+.footer-mid .footer-icons p{
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-last{
+    color: var(--white);
+    font-size: 2rem;
+    background-color: #191e29;
+    padding: 3rem 0rem;
+}
+.footer-last-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width : 1023px){
+    .footer-last{
+        font-size: 1.5rem;
+    }
+    .footer-last-right{
+        font-size: 1.5rem;
+    }
+    .footer-last-right img{
+        width: 200px;
+        height: auto;
+    }
+    .footer-mid .form-control::placeholder{
+        font-size: 1rem !important;
+    }
+    .footer-mid .btn-primary{
+        font-size: 1.2rem !important;
+    }
+    .footer-mid span{
+        font-size:1.3rem !important ;
+    }
+    .footer-mid .footer-icons p{
+        border: none;
+    }
+
+}
+
+@media screen and (max-width : 1199.5px){
+    .footer-mid .form-control::placeholder{
+        font-size: 1.2rem;
+    }
+    .footer-mid .btn-primary{
+        font-size: 1.3rem;
+    }
+    .footer-mid span{
+        font-size:1.5rem ;
+    }
+
+
+}
+
+@media screen and (max-width : 767px) {
+    .footer-last{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .footer-last-right{
+        margin-top: 1rem;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-mid .form-control::placeholder{
+        font-size: 1.5rem !important;
+    }
+    .footer-mid .btn-primary{
+        font-size: 1.7rem !important;
+    }
+    .footer-mid span{
+        font-size:2rem !important ;
+    }
+    .footer-mid .footer-icons p{
+        border: 1px solid var(--white) !important;
+    }
+
+    
+}

@@ -1,0 +1,73 @@
+.card-pricing{
+    border: none;
+    box-shadow: 0rem 2rem 3rem rgba(0,0,0,0.5);
+    width: 34rem !important;
+    transition: all 0.5s ease ;
+}
+.card-pricing:hover{
+    box-shadow: none;
+}
+
+.card-pricing:hover .btn-start{
+    background-color: var(--bg-primary);
+}
+.card-heading{
+    background-color: var(--bg-primary);
+    color: white;
+    text-align: center;
+    padding: 2.5rem 0rem;
+}
+.card-heading>p{
+    font-size: 1.7rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.card-heading .price-title{
+    font-size: 5rem;
+}
+.card-heading .price-title span{
+    font-size: 2.5rem;
+    text-transform: lowercase;
+}
+
+.card-middle{
+    text-align: center;
+    font-size: 3.5rem;
+    background-color: #53a5ef;
+    padding: 2rem 0rem;
+    color: white;
+}
+.card-middle>h1{
+   font-size: 1.9rem;
+}
+
+.card-last{
+    background-color: var(--white);
+    text-align: center;
+    /* padding: 1rem 0rem; */
+}
+.card-last>p{
+    padding: 1rem 0rem 1rem 0rem;
+    border-bottom: 1px solid #a1a1a1;
+    font-size: 1.6rem;
+    color: #a1a1a1;
+    font-weight: 300;
+}
+
+.card-pricing .btn-start{
+    display: block;
+    margin: 2rem auto;
+    animation: none;
+    color: white;
+    width: 14rem;
+    height: 4.5rem;
+    font-size: 1.6rem;
+}
+
+
+@media screen and (max-width:1025px) {
+    .card-pricing{
+        width: auto !important;
+    }
+}
